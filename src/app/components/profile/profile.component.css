@@ -1,0 +1,70 @@
+:root {
+  /* Primary */
+  --blue: hsl(246, 80%, 60%);
+  --work-light-red: hsl(15, 100%, 70%);
+  --play-soft-blue: hsl(195, 74%, 62%);
+  --study-light-red: hsl(348, 100%, 68%);
+  --exercise-lime-green: hsl(145, 58%, 55%);
+  --social-violet: hsl(264, 64%, 52%);
+  --self-care-soft-orange: hsl(43, 84%, 65%);
+
+  /* Neutral */
+  --very-dark-blue: hsl(226, 43%, 10%);
+  --dark-blue: hsl(235, 46%, 20%);
+  --desaturated-blue: hsl(235, 45%, 61%);
+  --pale-blue: hsl(236, 100%, 87%);
+  --white: hsl(236, 0%, 100%);
+}
+
+* {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-profile {
+  background-color: var(--dark-blue);
+  height: 100%;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+}
+
+.user {
+  padding: 1rem 2rem;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 1rem;
+}
+
+.user img {
+  width: 40%;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  border: 4px solid white;
+  border-radius: 50%;
+}
+
+.user-details {
+  margin: 2.5rem 0rem 4rem 0rem;
+  padding-top: .5rem;
+}
+
+.user-details p {
+  font-weight: 300;
+  font-size: 1.25em;
+  color: var(--pale-blue);
+}
+
+.user-details ul.name {
+  list-style: none;
+  justify-content: space-around;
+  font-size: 3em;
+}
+
+.navigation {
+  padding: 1rem 0rem;
+}
+
+.navigation li {
+  justify-content: space-around;
+  margin: 1rem 0rem;
+}
