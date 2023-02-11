@@ -1,3 +1,9 @@
+// app.component.spec.ts
+// One of the four main files that are created
+
+// This file will contain all of the code you'll need for testing of specific
+// components
+
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
