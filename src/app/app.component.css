@@ -2,3 +2,11 @@
 /* One of four main files that are created */
 
 /* This file will hold specific CSS styling for the affiliated component */
+
+.container {
+  display: flex;
+  border: 1px solid white;
+  width: 75%;
+  height: 75%;
+  margin: 10rem auto;
+}
