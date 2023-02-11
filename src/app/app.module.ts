@@ -10,13 +10,17 @@ import { AppRoutingModule } from './app-routing.module';
 // when using the Angular CLI
 // When we import a new component (like `AppComponent` below)...
 import { AppComponent } from './app.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { PrioritiesComponent } from './components/priorities/priorities.component';
 
 // From the `NgModule` we're bringing in four categories, of sorts
 @NgModule({
 
   // ...that `AppComponent` (Line 10) is put in "declarations"
   declarations: [
-    AppComponent
+    AppComponent,
+    ProfileComponent,
+    PrioritiesComponent
   ],
 
   // Whenever you use a module, it should be included in "imports"
