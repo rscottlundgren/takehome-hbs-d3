@@ -15,9 +15,9 @@
     </div>
     <div>
         <ul class="navigation">
-            <li>LINK TO DAILY</li>
-            <li>LINK TO WEEKLY</li>
-            <li>LINK TO MONTHLY</li>
+            <li><a class="{{ isDailyActive ? 'active' : ''}}" (click)="onDailyClick()">Daily</a></li>
+            <li><a class="{{ isWeeklyActive ? 'active' : ''}}" (click)="onWeeklyClick()">Weekly</a></li>
+            <li><a class="{{ isMonthlyActive ? 'active' : ''}}" (click)="onMonthlyClick()">Monthly</a></li>
         </ul>
     </div>
 </div>
