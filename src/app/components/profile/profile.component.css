@@ -66,5 +66,15 @@
 
 .navigation li {
   justify-content: space-around;
-  margin: 1rem 0rem;
+  margin: 1rem 0rem 1rem 2rem;
+  color: var(--pale-blue);
+}
+
+.navigation a.active {
+  color: var(--white);
+}
+
+.navigation a:hover {
+  color: var(--white);
+  cursor: pointer;
 }
